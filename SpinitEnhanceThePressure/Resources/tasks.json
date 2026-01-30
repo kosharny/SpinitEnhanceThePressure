@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "task_001",
+    "title": "Perfect Ball Inflation Technique",
+    "category": "Maintenance",
+    "description": "Master the proper technique for inflating your football to optimal pressure for peak performance and longevity.",
+    "imageName": "ball_inflation_technique",
+    "difficulty": "Beginner",
+    "estimatedTime": 15,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_001_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "ball_inflation_technique_step_1"
+      },
+      {
+        "id": "task_001_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "ball_inflation_technique_step_2"
+      },
+      {
+        "id": "task_001_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "ball_inflation_technique_step_3"
+      },
+      {
+        "id": "task_001_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "ball_inflation_technique_step_4"
+      },
+      {
+        "id": "task_001_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "ball_inflation_technique_step_5"
+      },
+      {
+        "id": "task_001_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "ball_inflation_technique_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_002",
+    "title": "Deep Clean Your Football",
+    "category": "Maintenance",
+    "description": "Learn the professional method for thoroughly cleaning your football to maintain its appearance and extend its lifespan.",
+    "imageName": "ball_cleaning",
+    "difficulty": "Beginner",
+    "estimatedTime": 20,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_002_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "ball_cleaning_step_1"
+      },
+      {
+        "id": "task_002_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "ball_cleaning_step_2"
+      },
+      {
+        "id": "task_002_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "ball_cleaning_step_3"
+      },
+      {
+        "id": "task_002_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "ball_cleaning_step_4"
+      },
+      {
+        "id": "task_002_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "ball_cleaning_step_5"
+      },
+      {
+        "id": "task_002_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "ball_cleaning_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_003",
+    "title": "Ball Pressure Testing Routine",
+    "category": "Maintenance",
+    "description": "Establish a regular testing routine to ensure your ball maintains optimal pressure for consistent performance.",
+    "imageName": "pressure_testing",
+    "difficulty": "Beginner",
+    "estimatedTime": 10,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_003_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "pressure_testing_step_1"
+      },
+      {
+        "id": "task_003_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "pressure_testing_step_2"
+      },
+      {
+        "id": "task_003_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "pressure_testing_step_3"
+      },
+      {
+        "id": "task_003_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "pressure_testing_step_4"
+      },
+      {
+        "id": "task_003_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "pressure_testing_step_5"
+      },
+      {
+        "id": "task_003_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "pressure_testing_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_004",
+    "title": "Proper Ball Storage Techniques",
+    "category": "Maintenance",
+    "description": "Learn how to store your football correctly to prevent damage and extend its useful life.",
+    "imageName": "ball_storage",
+    "difficulty": "Beginner",
+    "estimatedTime": 15,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_004_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "ball_storage_step_1"
+      },
+      {
+        "id": "task_004_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "ball_storage_step_2"
+      },
+      {
+        "id": "task_004_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "ball_storage_step_3"
+      },
+      {
+        "id": "task_004_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "ball_storage_step_4"
+      },
+      {
+        "id": "task_004_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "ball_storage_step_5"
+      },
+      {
+        "id": "task_004_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "ball_storage_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_005",
+    "title": "Choosing the Right Ball Size",
+    "category": "Selection",
+    "description": "Master the process of selecting the appropriate ball size for your age, skill level, and playing style.",
+    "imageName": "size_selection",
+    "difficulty": "Beginner",
+    "estimatedTime": 12,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_005_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "size_selection_step_1"
+      },
+      {
+        "id": "task_005_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "size_selection_step_2"
+      },
+      {
+        "id": "task_005_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "size_selection_step_3"
+      },
+      {
+        "id": "task_005_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "size_selection_step_4"
+      },
+      {
+        "id": "task_005_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "size_selection_step_5"
+      },
+      {
+        "id": "task_005_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "size_selection_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_006",
+    "title": "Indoor vs Outdoor Ball Selection",
+    "category": "Selection",
+    "description": "Learn to identify and choose the correct ball type for your playing environment.",
+    "imageName": "surface_selection",
+    "difficulty": "Intermediate",
+    "estimatedTime": 18,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_006_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "surface_selection_step_1"
+      },
+      {
+        "id": "task_006_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "surface_selection_step_2"
+      },
+      {
+        "id": "task_006_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "surface_selection_step_3"
+      },
+      {
+        "id": "task_006_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "surface_selection_step_4"
+      },
+      {
+        "id": "task_006_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "surface_selection_step_5"
+      },
+      {
+        "id": "task_006_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "surface_selection_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_007",
+    "title": "Evaluating Ball Quality",
+    "category": "Selection",
+    "description": "Develop skills to assess football quality and make informed purchasing decisions.",
+    "imageName": "quality_evaluation",
+    "difficulty": "Intermediate",
+    "estimatedTime": 20,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_007_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "quality_evaluation_step_1"
+      },
+      {
+        "id": "task_007_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "quality_evaluation_step_2"
+      },
+      {
+        "id": "task_007_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "quality_evaluation_step_3"
+      },
+      {
+        "id": "task_007_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "quality_evaluation_step_4"
+      },
+      {
+        "id": "task_007_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "quality_evaluation_step_5"
+      },
+      {
+        "id": "task_007_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "quality_evaluation_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_008",
+    "title": "Understanding Ball Materials",
+    "category": "Education",
+    "description": "Explore different ball materials and their impact on performance and durability.",
+    "imageName": "material_understanding",
+    "difficulty": "Beginner",
+    "estimatedTime": 15,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_008_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "material_understanding_step_1"
+      },
+      {
+        "id": "task_008_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "material_understanding_step_2"
+      },
+      {
+        "id": "task_008_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "material_understanding_step_3"
+      },
+      {
+        "id": "task_008_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "material_understanding_step_4"
+      },
+      {
+        "id": "task_008_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "material_understanding_step_5"
+      },
+      {
+        "id": "task_008_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "material_understanding_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_009",
+    "title": "Ball Aerodynamics Basics",
+    "category": "Education",
+    "description": "Learn fundamental aerodynamic principles that affect ball flight and behavior.",
+    "imageName": "aerodynamics_basics",
+    "difficulty": "Intermediate",
+    "estimatedTime": 25,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_009_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "aerodynamics_basics_step_1"
+      },
+      {
+        "id": "task_009_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "aerodynamics_basics_step_2"
+      },
+      {
+        "id": "task_009_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "aerodynamics_basics_step_3"
+      },
+      {
+        "id": "task_009_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "aerodynamics_basics_step_4"
+      },
+      {
+        "id": "task_009_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "aerodynamics_basics_step_5"
+      },
+      {
+        "id": "task_009_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "aerodynamics_basics_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_010",
+    "title": "Professional Ball Standards",
+    "category": "Education",
+    "description": "Understand FIFA quality standards and what makes a professional-grade football.",
+    "imageName": "pro_standards",
+    "difficulty": "Intermediate",
+    "estimatedTime": 18,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_010_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "pro_standards_step_1"
+      },
+      {
+        "id": "task_010_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "pro_standards_step_2"
+      },
+      {
+        "id": "task_010_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "pro_standards_step_3"
+      },
+      {
+        "id": "task_010_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "pro_standards_step_4"
+      },
+      {
+        "id": "task_010_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "pro_standards_step_5"
+      },
+      {
+        "id": "task_010_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "pro_standards_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_011",
+    "title": "Ball Break-In Process",
+    "category": "Maintenance",
+    "description": "Properly break in a new football to optimize its performance and feel.",
+    "imageName": "ball_break_in",
+    "difficulty": "Beginner",
+    "estimatedTime": 30,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_011_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "ball_break_in_step_1"
+      },
+      {
+        "id": "task_011_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "ball_break_in_step_2"
+      },
+      {
+        "id": "task_011_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "ball_break_in_step_3"
+      },
+      {
+        "id": "task_011_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "ball_break_in_step_4"
+      },
+      {
+        "id": "task_011_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "ball_break_in_step_5"
+      },
+      {
+        "id": "task_011_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "ball_break_in_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_012",
+    "title": "Valve Maintenance and Repair",
+    "category": "Maintenance",
+    "description": "Learn to maintain and repair ball valves to prevent air leaks and extend ball life.",
+    "imageName": "valve_maintenance",
+    "difficulty": "Intermediate",
+    "estimatedTime": 20,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_012_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "valve_maintenance_step_1"
+      },
+      {
+        "id": "task_012_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "valve_maintenance_step_2"
+      },
+      {
+        "id": "task_012_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "valve_maintenance_step_3"
+      },
+      {
+        "id": "task_012_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "valve_maintenance_step_4"
+      },
+      {
+        "id": "task_012_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "valve_maintenance_step_5"
+      },
+      {
+        "id": "task_012_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "valve_maintenance_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_013",
+    "title": "Weather Adaptation Techniques",
+    "category": "Performance",
+    "description": "Master techniques for adapting ball pressure and selection to different weather conditions.",
+    "imageName": "weather_adaptation",
+    "difficulty": "Intermediate",
+    "estimatedTime": 15,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_013_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "weather_adaptation_step_1"
+      },
+      {
+        "id": "task_013_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "weather_adaptation_step_2"
+      },
+      {
+        "id": "task_013_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "weather_adaptation_step_3"
+      },
+      {
+        "id": "task_013_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "weather_adaptation_step_4"
+      },
+      {
+        "id": "task_013_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "weather_adaptation_step_5"
+      },
+      {
+        "id": "task_013_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "weather_adaptation_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_014",
+    "title": "Ball Bounce Optimization",
+    "category": "Performance",
+    "description": "Learn to adjust and optimize ball bounce characteristics for different playing surfaces.",
+    "imageName": "bounce_optimization",
+    "difficulty": "Intermediate",
+    "estimatedTime": 18,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_014_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "bounce_optimization_step_1"
+      },
+      {
+        "id": "task_014_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "bounce_optimization_step_2"
+      },
+      {
+        "id": "task_014_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "bounce_optimization_step_3"
+      },
+      {
+        "id": "task_014_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "bounce_optimization_step_4"
+      },
+      {
+        "id": "task_014_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "bounce_optimization_step_5"
+      },
+      {
+        "id": "task_014_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "bounce_optimization_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_015",
+    "title": "Goalkeeper Ball Handling",
+    "category": "Specialized",
+    "description": "Develop goalkeeper-specific knowledge for ball selection and handling techniques.",
+    "imageName": "goalkeeper_handling",
+    "difficulty": "Intermediate",
+    "estimatedTime": 22,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_015_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "goalkeeper_handling_step_1"
+      },
+      {
+        "id": "task_015_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "goalkeeper_handling_step_2"
+      },
+      {
+        "id": "task_015_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "goalkeeper_handling_step_3"
+      },
+      {
+        "id": "task_015_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "goalkeeper_handling_step_4"
+      },
+      {
+        "id": "task_015_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "goalkeeper_handling_step_5"
+      },
+      {
+        "id": "task_015_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "goalkeeper_handling_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_016",
+    "title": "Youth Player Ball Selection",
+    "category": "Specialized",
+    "description": "Learn to choose appropriate balls for young players to support proper development.",
+    "imageName": "youth_selection",
+    "difficulty": "Beginner",
+    "estimatedTime": 15,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_016_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "youth_selection_step_1"
+      },
+      {
+        "id": "task_016_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "youth_selection_step_2"
+      },
+      {
+        "id": "task_016_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "youth_selection_step_3"
+      },
+      {
+        "id": "task_016_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "youth_selection_step_4"
+      },
+      {
+        "id": "task_016_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "youth_selection_step_5"
+      },
+      {
+        "id": "task_016_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "youth_selection_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_017",
+    "title": "Futsal Ball Mastery",
+    "category": "Specialized",
+    "description": "Understand the unique characteristics and requirements of futsal balls.",
+    "imageName": "futsal_mastery",
+    "difficulty": "Intermediate",
+    "estimatedTime": 20,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_017_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "futsal_mastery_step_1"
+      },
+      {
+        "id": "task_017_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "futsal_mastery_step_2"
+      },
+      {
+        "id": "task_017_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "futsal_mastery_step_3"
+      },
+      {
+        "id": "task_017_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "futsal_mastery_step_4"
+      },
+      {
+        "id": "task_017_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "futsal_mastery_step_5"
+      },
+      {
+        "id": "task_017_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "futsal_mastery_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_018",
+    "title": "Ball Troubleshooting Guide",
+    "category": "Maintenance",
+    "description": "Diagnose and fix common ball problems to maintain optimal performance.",
+    "imageName": "troubleshooting",
+    "difficulty": "Intermediate",
+    "estimatedTime": 25,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_018_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "troubleshooting_step_1"
+      },
+      {
+        "id": "task_018_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "troubleshooting_step_2"
+      },
+      {
+        "id": "task_018_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "troubleshooting_step_3"
+      },
+      {
+        "id": "task_018_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "troubleshooting_step_4"
+      },
+      {
+        "id": "task_018_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "troubleshooting_step_5"
+      },
+      {
+        "id": "task_018_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "troubleshooting_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_019",
+    "title": "Advanced Pressure Management",
+    "category": "Performance",
+    "description": "Master advanced techniques for managing ball pressure in various conditions and situations.",
+    "imageName": "advanced_pressure",
+    "difficulty": "Advanced",
+    "estimatedTime": 20,
+    "isFeatured": false,
+    "steps": [
+      {
+        "id": "task_019_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "advanced_pressure_step_1"
+      },
+      {
+        "id": "task_019_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "advanced_pressure_step_2"
+      },
+      {
+        "id": "task_019_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "advanced_pressure_step_3"
+      },
+      {
+        "id": "task_019_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "advanced_pressure_step_4"
+      },
+      {
+        "id": "task_019_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "advanced_pressure_step_5"
+      },
+      {
+        "id": "task_019_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "advanced_pressure_step_6"
+      }
+    ]
+  },
+  {
+    "id": "task_020",
+    "title": "Complete Ball Care System",
+    "category": "Maintenance",
+    "description": "Implement a comprehensive ball care and maintenance system for maximum longevity.",
+    "imageName": "complete_care",
+    "difficulty": "Advanced",
+    "estimatedTime": 30,
+    "isFeatured": true,
+    "steps": [
+      {
+        "id": "task_020_step_1",
+        "stepNumber": 1,
+        "title": "Preparation and Setup",
+        "description": "Gather all necessary equipment and materials. Ensure you have a clean workspace and all tools are in good condition. Review the task requirements and familiarize yourself with the process. Check that your football is accessible and ready for the procedure. Prepare any cleaning materials, measuring tools, or other equipment you will need. Having everything organized before you start ensures a smooth, efficient process and prevents interruptions.",
+        "imageName": "complete_care_step_1"
+      },
+      {
+        "id": "task_020_step_2",
+        "stepNumber": 2,
+        "title": "Initial Assessment",
+        "description": "Examine the current state of your football carefully. Check for any visible damage, wear, or issues that need attention. Assess the current condition relative to what you want to achieve. Take note of specific areas that require focus. Document the starting condition so you can track improvements. This assessment helps you understand what needs to be done and sets a baseline for measuring success.",
+        "imageName": "complete_care_step_2"
+      },
+      {
+        "id": "task_020_step_3",
+        "stepNumber": 3,
+        "title": "Primary Action",
+        "description": "Execute the main procedure following best practices. Work methodically and carefully, paying attention to detail. Use proper technique to ensure quality results. Take your time and do not rush - quality is more important than speed. Monitor your progress as you work and make adjustments as needed. Follow safety guidelines and manufacturer recommendations throughout the process.",
+        "imageName": "complete_care_step_3"
+      },
+      {
+        "id": "task_020_step_4",
+        "stepNumber": 4,
+        "title": "Quality Check",
+        "description": "Inspect your work carefully to ensure it meets standards. Check all aspects of what you have done, looking for any issues or areas that need improvement. Verify that the results match your expectations and requirements. Test functionality where applicable. If you find any problems, address them now before proceeding. This quality check prevents issues from becoming bigger problems later.",
+        "imageName": "complete_care_step_4"
+      },
+      {
+        "id": "task_020_step_5",
+        "stepNumber": 5,
+        "title": "Refinement and Adjustment",
+        "description": "Make any necessary fine-tuning or corrections based on your quality check. Address any minor issues you identified. Optimize the results to achieve the best possible outcome. This step transforms good results into excellent ones. Pay attention to details that might seem small but make a difference in overall quality. Take pride in achieving the highest standard possible.",
+        "imageName": "complete_care_step_5"
+      },
+      {
+        "id": "task_020_step_6",
+        "stepNumber": 6,
+        "title": "Completion and Documentation",
+        "description": "Finalize the task and clean up your workspace. Store all tools and materials properly for future use. Document what you did, including any observations or lessons learned. Note the date and any relevant details for future reference. Verify that everything is complete and nothing was overlooked. This documentation helps you track maintenance history and improve your process over time.",
+        "imageName": "complete_care_step_6"
+      }
+    ]
+  }
+]

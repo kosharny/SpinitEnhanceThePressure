@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "indoor_outdoor_comparison.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ball_size_chart.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
