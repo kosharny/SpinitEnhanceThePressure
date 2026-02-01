@@ -12,9 +12,11 @@ struct AboutViewSP: View {
                 
                 ScrollView {
                     VStack(spacing: 32) {
-                        Image(systemName: "soccerball")
-                            .font(.system(size: 80))
-                            .foregroundColor(viewModel.themeManager.currentTheme.primaryColor)
+                        Image("mainLogo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(maxWidth: 200)
+                            .offset(x: -8, y: 8)
                         
                         VStack(spacing: 8) {
                             Text("SPINIT")

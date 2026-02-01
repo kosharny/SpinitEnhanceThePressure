@@ -17,14 +17,19 @@ final class ThemeManagerSP: ObservableObject {
         let savedID = UserDefaults.standard.string(forKey: themeKey)
         
         if let id = savedID,
-           let theme = ThemeSP.allThemes.first(where: { $0.id == id }),
-           !theme.isPremium || storeManager.isPurchased(theme.productID ?? "") {
+           let theme = ThemeSP.allThemes.first(where: { $0.id == id }) {
             self.currentTheme = theme
         } else {
             self.currentTheme = defaultTheme
-            UserDefaults.standard.set(defaultTheme.id, forKey: themeKey)
         }
         
+        storeManager.$isReady
+            .filter { $0 }
+            .sink { [weak self] _ in
+                self?.syncAfterPurchase()
+            }
+            .store(in: &cancellables)
+            
         storeManager.$purchasedProductIDs
             .sink { [weak self] _ in
                 self?.syncAfterPurchase()
@@ -33,6 +38,8 @@ final class ThemeManagerSP: ObservableObject {
     }
     
     private func syncAfterPurchase() {
+        guard storeManager.isReady else { return }
+        
         if currentTheme.isPremium,
            let productID = currentTheme.productID,
            !storeManager.isPurchased(productID) {

@@ -4,6 +4,7 @@ struct TaskDetailsViewSP: View {
     let task: TaskSP
     @EnvironmentObject var viewModel: MainViewModelSP
     @Environment(\.dismiss) var dismiss
+    @Environment(\.navigationPath) var path
     
     var isFavorite: Bool {
         viewModel.userProgress.favoriteTaskIDs.contains(task.id)
@@ -142,7 +143,31 @@ struct TaskDetailsViewSP: View {
                             }
                             
                             if !isCompleted {
-                                NavigationLink(destination: TaskStepViewSP(task: task, currentStep: viewModel.userProgress.currentTaskProgress[task.id] ?? 0)) {
+//                                NavigationLink(destination: TaskStepViewSP(task: task, currentStep: viewModel.userProgress.currentTaskProgress[task.id] ?? 0)) {
+//                                    HStack {
+//                                        Image(systemName: isStarted ? "play.circle" : "play.circle.fill")
+//                                        Text(isStarted ? "Continue" : "Start Task")
+//                                            .font(.system(size: 15, weight: .semibold))
+//                                    }
+//                                    .foregroundColor(.black)
+//                                    .frame(maxWidth: .infinity)
+//                                    .padding(.vertical, 14)
+//                                    .background(
+//                                        RoundedRectangle(cornerRadius: 12)
+//                                            .fill(viewModel.themeManager.currentTheme.primaryColor)
+//                                    )
+//                                }
+//                                .simultaneousGesture(TapGesture().onEnded {
+//                                    if !isStarted {
+//                                        viewModel.startTask(task)
+//                                    }
+//                                })
+                                Button {
+                                    if !isStarted {
+                                        viewModel.startTask(task)
+                                    }
+                                    path?.wrappedValue.append(.taskStep(task.id))
+                                } label: {
                                     HStack {
                                         Image(systemName: isStarted ? "play.circle" : "play.circle.fill")
                                         Text(isStarted ? "Continue" : "Start Task")
@@ -156,11 +181,6 @@ struct TaskDetailsViewSP: View {
                                             .fill(viewModel.themeManager.currentTheme.primaryColor)
                                     )
                                 }
-                                .simultaneousGesture(TapGesture().onEnded {
-                                    if !isStarted {
-                                        viewModel.startTask(task)
-                                    }
-                                })
                             }
                         }
                         .padding(.top, 8)

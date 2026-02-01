@@ -6,6 +6,7 @@ import Combine
 final class StoreManagerSP: ObservableObject {
     @Published private(set) var products: [Product] = []
     @Published private(set) var purchasedProductIDs: Set<String> = []
+    @Published private(set) var isReady: Bool = false
     
     private let productIDs: Set<String> = [
         "premium_theme_electric",
@@ -20,6 +21,7 @@ final class StoreManagerSP: ObservableObject {
         Task {
             await loadProducts()
             await refreshPurchasedProducts()
+            isReady = true
         }
     }
     
@@ -97,6 +99,12 @@ final class StoreManagerSP: ObservableObject {
         case .unverified:
             throw StoreError.failedVerification
         }
+    }
+    
+    nonisolated func paymentQueue(_ queue: SKPaymentQueue,
+                                  shouldAddStorePayment payment: SKPayment,
+                                  for product: SKProduct) -> Bool {
+        return true
     }
 }
 

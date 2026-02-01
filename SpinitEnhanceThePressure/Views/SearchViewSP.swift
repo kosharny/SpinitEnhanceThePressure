@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SearchViewSP: View {
     @EnvironmentObject var viewModel: MainViewModelSP
+    @Environment(\.navigationPath) var path
     @State private var searchText = ""
     @State private var selectedSegment = 0
     @State private var selectedCategory = "All"
@@ -82,10 +83,10 @@ struct SearchViewSP: View {
                                 EmptySearchStateSP(message: "No articles found")
                             } else {
                                 ForEach(filteredArticles) { article in
-                                    NavigationLink(destination: DetailsViewSP(article: article)) {
-                                        ArticleCardSP(article: article)
-                                    }
-                                    .buttonStyle(PlainButtonStyle())
+                                    ArticleCardSP(article: article)
+                                        .onTapGesture {
+                                            path?.wrappedValue.append(.articleDetails(article.id))
+                                        }
                                 }
                             }
                         } else {
@@ -93,10 +94,10 @@ struct SearchViewSP: View {
                                 EmptySearchStateSP(message: "No tasks found")
                             } else {
                                 ForEach(filteredTasks) { task in
-                                    NavigationLink(destination: TaskDetailsViewSP(task: task)) {
-                                        TaskCardSP(task: task)
-                                    }
-                                    .buttonStyle(PlainButtonStyle())
+                                    TaskCardSP(task: task)
+                                        .onTapGesture {
+                                            path?.wrappedValue.append(.taskDetails(task.id))
+                                        }
                                 }
                             }
                         }

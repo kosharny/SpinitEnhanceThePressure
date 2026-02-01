@@ -2,6 +2,7 @@ import SwiftUI
 
 struct FavoritesViewSP: View {
     @EnvironmentObject var viewModel: MainViewModelSP
+    @Environment(\.navigationPath) var path
     @State private var selectedSegment = 0
     
     private let segments = ["Articles", "Tasks"]
@@ -31,10 +32,10 @@ struct FavoritesViewSP: View {
                                 EmptyStateSP(message: "No favorite articles yet")
                             } else {
                                 ForEach(viewModel.favoriteArticles) { article in
-                                    NavigationLink(destination: DetailsViewSP(article: article)) {
-                                        ArticleCardSP(article: article)
-                                    }
-                                    .buttonStyle(PlainButtonStyle())
+                                    ArticleCardSP(article: article)
+                                        .onTapGesture {
+                                            path?.wrappedValue.append(.articleDetails(article.id))
+                                        }
                                 }
                             }
                         } else {
@@ -42,10 +43,10 @@ struct FavoritesViewSP: View {
                                 EmptyStateSP(message: "No favorite tasks yet")
                             } else {
                                 ForEach(viewModel.favoriteTasks) { task in
-                                    NavigationLink(destination: TaskDetailsViewSP(task: task)) {
-                                        TaskCardSP(task: task)
-                                    }
-                                    .buttonStyle(PlainButtonStyle())
+                                    TaskCardSP(task: task)
+                                        .onTapGesture {
+                                            path?.wrappedValue.append(.taskDetails(task.id))
+                                        }
                                 }
                             }
                         }

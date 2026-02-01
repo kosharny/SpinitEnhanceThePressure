@@ -46,7 +46,6 @@ struct OnboardingViewSP: View {
                 }
                 .padding(.top, 50)
                 
-                Spacer()
                 
                 TabView(selection: $currentPage) {
                     ForEach(0..<pages.count, id: \.self) { index in
