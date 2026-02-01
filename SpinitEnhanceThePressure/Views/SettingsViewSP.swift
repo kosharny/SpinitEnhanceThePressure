@@ -52,7 +52,7 @@ struct SettingsViewSP: View {
                                 .font(.system(size: 20, weight: .bold))
                                 .foregroundColor(.white)
                             
-                            NavigationLink(destination: AboutViewSP()) {
+                            NavigationLink(value: RouteSP.about) {
                                 HStack {
                                     Text("About")
                                         .font(.system(size: 16))

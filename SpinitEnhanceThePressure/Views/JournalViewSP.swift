@@ -31,7 +31,7 @@ struct JournalViewSP: View {
                                 EmptyStateSP(message: "No articles viewed yet")
                             } else {
                                 ForEach(viewModel.viewedArticles) { article in
-                                    NavigationLink(destination: DetailsViewSP(article: article)) {
+                                    NavigationLink(value: RouteSP.articleDetails(article.id)) {
                                         ArticleCardSP(article: article)
                                     }
                                     .buttonStyle(PlainButtonStyle())
@@ -42,7 +42,7 @@ struct JournalViewSP: View {
                                 EmptyStateSP(message: "No tasks started yet")
                             } else {
                                 ForEach(viewModel.startedTasks) { task in
-                                    NavigationLink(destination: TaskDetailsViewSP(task: task)) {
+                                    NavigationLink(value: RouteSP.taskDetails(task.id)) {
                                         TaskCardSP(task: task)
                                     }
                                     .buttonStyle(PlainButtonStyle())
@@ -53,7 +53,7 @@ struct JournalViewSP: View {
                                 EmptyStateSP(message: "No tasks completed yet")
                             } else {
                                 ForEach(viewModel.completedTasks) { task in
-                                    NavigationLink(destination: TaskDetailsViewSP(task: task)) {
+                                    NavigationLink(value: RouteSP.taskDetails(task.id)) {
                                         TaskCardSP(task: task)
                                     }
                                     .buttonStyle(PlainButtonStyle())

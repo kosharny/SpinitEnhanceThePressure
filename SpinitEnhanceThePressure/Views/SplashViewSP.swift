@@ -10,9 +10,11 @@ struct SplashViewSP: View {
             GradientBackgroundSP()
             
             VStack(spacing: 20) {
-                Image(systemName: "soccerball")
-                    .font(.system(size: 100))
-                    .foregroundColor(viewModel.themeManager.currentTheme.primaryColor)
+                Image("mainLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: 200)
+                    .offset(x: -8, y: 8)
                     .scaleEffect(scale)
                     .opacity(opacity)
                 

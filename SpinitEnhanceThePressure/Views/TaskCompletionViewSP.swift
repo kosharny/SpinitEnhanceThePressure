@@ -4,6 +4,7 @@ struct TaskCompletionViewSP: View {
     let task: TaskSP
     @EnvironmentObject var viewModel: MainViewModelSP
     @Environment(\.dismiss) var dismiss
+    @Environment(\.navigationPath) var path
     @State private var scale: CGFloat = 0.5
     @State private var opacity: Double = 0
     
@@ -62,8 +63,11 @@ struct TaskCompletionViewSP: View {
                 Spacer()
                 
                 CustomButtonSP(title: "Done", style: .primary) {
-                    viewModel.shouldDismissToRoot = true
-                    dismiss()
+//                    viewModel.shouldDismissToRoot = true
+//                    dismiss()
+                    withAnimation(.easeInOut(duration: 0.45)) {
+                        path?.wrappedValue.removeAll()
+                    }
                 }
                 .padding(.horizontal, 30)
                 .padding(.bottom, 40)

@@ -2,10 +2,12 @@ import SwiftUI
 
 struct TaskStepViewSP: View {
     let task: TaskSP
-    @State var currentStep: Int
+//    @State var currentStep: Int
+    @State private var currentStep: Int = 0
     @EnvironmentObject var viewModel: MainViewModelSP
     @Environment(\.dismiss) var dismiss
     @State private var navigateToCompletion = false
+    @Environment(\.navigationPath) var path
     
     var currentStepData: TaskStepSP? {
         task.steps.first { $0.stepNumber == currentStep + 1 }
@@ -27,7 +29,9 @@ struct TaskStepViewSP: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: SettingsViewSP()) {
+                    Button {
+                        path?.wrappedValue.append(.settings)
+                    } label: {
                         Image(systemName: "gearshape.fill")
                             .font(.system(size: 20))
                             .foregroundColor(viewModel.themeManager.currentTheme.primaryColor)
@@ -50,12 +54,7 @@ struct TaskStepViewSP: View {
                 if let stepData = currentStepData {
                     ScrollView {
                         VStack(alignment: .leading, spacing: 24) {
-                            Image(stepData.imageName)
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                                .frame(height: 220)
-                                .clipped()
-                                .cornerRadius(16)
+                            SoccerBallAnimationSP()
                             
                             VStack(alignment: .leading, spacing: 16) {
                                 HStack {
@@ -97,10 +96,24 @@ struct TaskStepViewSP: View {
                                         }
                                     }
                                 } else {
-                                    Button(action: {
+//                                    Button(action: {
+//                                        viewModel.completeTask(task)
+//                                        navigateToCompletion = true
+//                                    }) {
+//                                        Text("Complete")
+//                                            .font(.system(size: 16, weight: .bold))
+//                                            .foregroundColor(.black)
+//                                            .frame(maxWidth: .infinity)
+//                                            .padding(.vertical, 14)
+//                                            .background(
+//                                                RoundedRectangle(cornerRadius: 12)
+//                                                    .fill(viewModel.themeManager.currentTheme.accentColor)
+//                                            )
+//                                    }
+                                    Button {
                                         viewModel.completeTask(task)
-                                        navigateToCompletion = true
-                                    }) {
+                                        path?.wrappedValue.append(.taskCompletion(task.id))
+                                    } label: {
                                         Text("Complete")
                                             .font(.system(size: 16, weight: .bold))
                                             .foregroundColor(.black)
@@ -130,6 +143,9 @@ struct TaskStepViewSP: View {
         .navigationDestination(isPresented: $navigateToCompletion) {
             TaskCompletionViewSP(task: task)
         }
+        .onAppear {
+            currentStep = viewModel.userProgress.currentTaskProgress[task.id] ?? 0
+        }
     }
 }
 
@@ -149,8 +165,7 @@ struct TaskStepViewSP: View {
                     TaskStepSP(id: "2", stepNumber: 2, title: "Check Pressure", description: "Measure current pressure", imageName: "step2")
                 ],
                 isFeatured: true
-            ),
-            currentStep: 0
+            )
         )
         .environmentObject(MainViewModelSP())
     }

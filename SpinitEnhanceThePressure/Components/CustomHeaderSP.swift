@@ -7,6 +7,8 @@ struct CustomHeaderSP: View {
     @Environment(\.dismiss) var dismiss
     @EnvironmentObject var viewModel: MainViewModelSP
     
+    @Environment(\.navigationPath) var path
+    
     var body: some View {
         HStack {
             if showBackButton {
@@ -29,7 +31,9 @@ struct CustomHeaderSP: View {
             Spacer()
             
             if showSettings {
-                NavigationLink(destination: SettingsViewSP()) {
+                Button {
+                    path?.wrappedValue.append(.settings)
+                } label: {
                     Image(systemName: "gearshape.fill")
                         .font(.system(size: 20))
                         .foregroundColor(viewModel.themeManager.currentTheme.primaryColor)

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct HomeViewSP: View {
     @EnvironmentObject var viewModel: MainViewModelSP
+    @Environment(\.navigationPath) var path
     
     var body: some View {
         ZStack {
@@ -14,7 +15,7 @@ struct HomeViewSP: View {
                     VStack(alignment: .leading, spacing: 24) {
                         VStack(alignment: .leading, spacing: 12) {
                             ZStack(alignment: .topLeading) {
-                                Image("ball_pressure_guide")
+                                Image("eco_friendly_football")
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
                                     .frame(height: 140)
@@ -67,7 +68,7 @@ struct HomeViewSP: View {
                                 
                                 Spacer()
                                 
-                                NavigationLink(destination: ArticleListViewSP()) {
+                                NavigationLink(value: RouteSP.articleList) {
                                     Text("See All")
                                         .font(.system(size: 14, weight: .semibold))
                                         .foregroundColor(viewModel.themeManager.currentTheme.primaryColor)
@@ -78,11 +79,11 @@ struct HomeViewSP: View {
                             ScrollView(.horizontal, showsIndicators: false) {
                                 HStack(spacing: 16) {
                                     ForEach(viewModel.featuredArticles.prefix(5)) { article in
-                                        NavigationLink(destination: DetailsViewSP(article: article)) {
-                                            ArticleCardSP(article: article)
-                                                .frame(width: 280)
-                                        }
-                                        .buttonStyle(PlainButtonStyle())
+                                        ArticleCardSP(article: article)
+                                            .frame(width: 280)
+                                            .onTapGesture {
+                                                path?.wrappedValue.append(.articleDetails(article.id))
+                                            }
                                     }
                                 }
                                 .padding(.horizontal, 20)
@@ -97,7 +98,7 @@ struct HomeViewSP: View {
                                 
                                 Spacer()
                                 
-                                NavigationLink(destination: TaskListViewSP()) {
+                                NavigationLink(value: RouteSP.taskList) {
                                     Text("See All")
                                         .font(.system(size: 14, weight: .semibold))
                                         .foregroundColor(viewModel.themeManager.currentTheme.primaryColor)
@@ -108,11 +109,11 @@ struct HomeViewSP: View {
                             ScrollView(.horizontal, showsIndicators: false) {
                                 HStack(spacing: 16) {
                                     ForEach(viewModel.featuredTasks.prefix(5)) { task in
-                                        NavigationLink(destination: TaskDetailsViewSP(task: task)) {
                                             TaskCardSP(task: task)
                                                 .frame(width: 280)
-                                        }
-                                        .buttonStyle(PlainButtonStyle())
+                                                .onTapGesture {
+                                                        path?.wrappedValue.append(.taskDetails(task.id))
+                                                    }
                                     }
                                 }
                                 .padding(.horizontal, 20)
@@ -147,7 +148,7 @@ struct HomeViewSP: View {
                                 .foregroundColor(.white)
                                 .padding(.horizontal, 20)
                             
-                            NavigationLink(destination: BallMaterialsViewSP()) {
+                            NavigationLink(value: RouteSP.ballMaterials) {
                                 ExtraScreenCardSP(
                                     icon: "circle.grid.3x3.fill",
                                     title: "Ball Materials",
@@ -157,7 +158,7 @@ struct HomeViewSP: View {
                             .buttonStyle(PlainButtonStyle())
                             .padding(.horizontal, 20)
                             
-                            NavigationLink(destination: PressureCalculatorGuideViewSP()) {
+                            NavigationLink(value: RouteSP.pressureGuide) {
                                 ExtraScreenCardSP(
                                     icon: "gauge",
                                     title: "Pressure Guide",
@@ -171,7 +172,7 @@ struct HomeViewSP: View {
                     }
                     .padding(.top, 20)
                     
-                    Spacer(minLength: 80)
+                    Spacer(minLength: 100)
                 }
                 .scrollDisabled(false)
             }
@@ -256,6 +257,7 @@ struct ExtraScreenCardSP: View {
 
 struct ArticleListViewSP: View {
     @EnvironmentObject var viewModel: MainViewModelSP
+    @Environment(\.navigationPath) var path
     
     var body: some View {
         ZStack {
@@ -267,10 +269,10 @@ struct ArticleListViewSP: View {
                 ScrollView {
                     VStack(spacing: 16) {
                         ForEach(viewModel.articles) { article in
-                            NavigationLink(destination: DetailsViewSP(article: article)) {
-                                ArticleCardSP(article: article)
-                            }
-                            .buttonStyle(PlainButtonStyle())
+                            ArticleCardSP(article: article)
+                                .onTapGesture {
+                                    path?.wrappedValue.append(.articleDetails(article.id))
+                                }
                         }
                     }
                     .padding(.horizontal, 20)
@@ -284,6 +286,7 @@ struct ArticleListViewSP: View {
 
 struct TaskListViewSP: View {
     @EnvironmentObject var viewModel: MainViewModelSP
+    @Environment(\.navigationPath) var path
     
     var body: some View {
         ZStack {
@@ -295,10 +298,10 @@ struct TaskListViewSP: View {
                 ScrollView {
                     VStack(spacing: 16) {
                         ForEach(viewModel.tasks) { task in
-                            NavigationLink(destination: TaskDetailsViewSP(task: task)) {
-                                TaskCardSP(task: task)
-                            }
-                            .buttonStyle(PlainButtonStyle())
+                            TaskCardSP(task: task)
+                                .onTapGesture {
+                                    path?.wrappedValue.append(.taskDetails(task.id))
+                                }
                         }
                     }
                     .padding(.horizontal, 20)

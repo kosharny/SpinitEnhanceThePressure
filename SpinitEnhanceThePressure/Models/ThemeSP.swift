@@ -12,9 +12,9 @@ struct ThemeSP: Identifiable, Codable, Equatable {
         case "neon_green":
             return Color(hex: "39FF14")
         case "electric_lime":
-            return Color(hex: "00FFFF") // Cyan
+            return Color(hex: "CCFF00")
         case "soft_glow":
-            return Color(hex: "9D00FF") // Purple
+            return Color(hex: "A066FF")
         default:
             return Color(hex: "39FF14")
         }
@@ -25,9 +25,9 @@ struct ThemeSP: Identifiable, Codable, Equatable {
         case "neon_green":
             return Color(hex: "2EEB5A")
         case "electric_lime":
-            return Color(hex: "E0FFFF") // Light Cyan
+            return Color(hex: "00FF95")
         case "soft_glow":
-            return Color(hex: "FF69B4") // Hot Pink
+            return Color(hex: "FF2E63")
         default:
             return Color(hex: "2EEB5A")
         }
